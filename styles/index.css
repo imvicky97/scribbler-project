@@ -40,12 +40,13 @@ body {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    height: 70%;
+    height: 59%;
 }
 
 textarea {
     margin-top: 10px;
     background-color: #EEECEA;
+    font-size: 14px;
 }
 
 .create-btn {
@@ -56,9 +57,10 @@ textarea {
     color: white;
     padding: 10px;
     align-self: center;
-    font-family: Abel;
+    font-family: 'Montserrat';
 }
 
 input {
     background-color: #EEECEA;
+    font-size: 14px;
 }
