@@ -92,7 +92,7 @@ body {
 
 .modal-title{
     align-self: flex-start;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
 }
 
 form {
@@ -103,13 +103,13 @@ form {
 input {
     padding: 10px;
     outline: none;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
 }
 
 .label-text {
     font-weight: bold;
     margin: 10px 0;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
 }
 
 .signin-btn {
@@ -120,5 +120,18 @@ input {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
+}
+
+.signup{
+    color: blue;
+    font-weight: bolder;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.bottom-banner{
+    font-family: 'Montserrat';
+    margin-left: 36%;
 }
