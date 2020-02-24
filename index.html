@@ -27,8 +27,8 @@
             <p class="sub-title">Explore, Imagine, Create</p>
         </div>
         <div class="login-buttons-container">
-            <button onclick="showSignInModal()" class="blue-btn" type="button">Sign In</button>
-            <button onclick="showSignUpModal()" class="blue-btn" type="button">Sign Up</button>
+            <button onclick="showSignInModalBox()" class="blue-btn" type="button">Sign In</button>
+            <button onclick="showSignUpModalBox()" class="blue-btn" type="button">Sign Up</button>
         </div>
     </div>
 
@@ -44,7 +44,7 @@
             <div class="modal-content">
 
                 <div class="modal-head">
-                    <span onclick="hideSignUpModal()" id="close" class="close">&times;</span>
+                    <span onclick="hideSignUpModalBox()" id="close" class="close">&times;</span>
                     <h2 class="modal-title">Get Started</h2>
                 </div>
                 <hr>
@@ -93,7 +93,7 @@
         <div class="modal-content">
 
             <div class="modal-head">
-                <span onclick="hideSignInModal()" class="close">&times;</span>
+                <span onclick="hideSignInModalBox()" class="close">&times;</span>
                 <h2 class="modal-title">Welcome Back!</h2>
             </div>
             <hr>
@@ -105,7 +105,7 @@
                 <button type="submit" class="signin-btn">Sign In</button>
             </form>
 
-            <p class="bottom-banner">Not a member?<span onclick="hideSignInModal();showSignUpModal()" class="signup">Sign Up</span>
+            <p class="bottom-banner">Not a member?<span onclick="hideSignInModalBox();showSignUpModalBox()" class="signup">Sign Up</span>
             </p>
         </div>
     </div>

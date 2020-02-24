@@ -1,20 +1,20 @@
-function showSignUpModal() {
+function showSignUpModalBox() {
     var modal = document.getElementById("signup-modal");
     modal.style.display = "flex";
 }
 
-function hideSignUpModal() {
+function hideSignUpModalBox() {
     var modal = document.getElementById("signup-modal");
     modal.style.display = "none";
 }
 
-function showSignInModal() {
+function showSignInModalBox() {
     console.log('clicked');
     var modal = document.getElementById("signin-modal");
     modal.style.display = "flex";
 }
 
-function hideSignInModal() {
+function hideSignInModalBox() {
     var modal = document.getElementById("signin-modal");
     modal.style.display = "none";
 }
